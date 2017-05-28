@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@foreach(${1:\$users} as ${2:\$user})
+	${3:}
+@endforeach
+]]></content>
+	<tabTrigger>lr-foreach</tabTrigger>
+</snippet>

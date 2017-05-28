@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+namespace App\Services;
+
+use DB;
+use Auth;
+
+class ${1:ServiceName}
+{
+	public static function ${2:functionName}()
+	{
+		${3:}
+	}
+}
+]]></content>
+	<tabTrigger>lr-new-serivce</tabTrigger>
+</snippet>

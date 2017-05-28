@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:functionName}(Request \$request)
+{
+	${2:}
+}
+]]></content>
+	<tabTrigger>lr-nw-fn-w-rq</tabTrigger>
+</snippet>

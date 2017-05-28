@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+return redirect()->back();
+]]></content>
+	<tabTrigger>lr-rd-bk</tabTrigger>
+</snippet>

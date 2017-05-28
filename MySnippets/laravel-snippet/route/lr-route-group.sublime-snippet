@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Route::group(['middleware' => '${1:test}'], function() {
+	${2:}
+});
+]]></content>
+	<tabTrigger>lr-route-group</tabTrigger>
+</snippet>

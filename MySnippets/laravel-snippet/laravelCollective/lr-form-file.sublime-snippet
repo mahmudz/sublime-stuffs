@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::open(['url'=>'/${1:test}','class'=>'form-horizontal','files' => true]) !!}
+	${2:}
+{!! Form::close() !!}
+]]></content>
+	<tabTrigger>lr-form-file</tabTrigger>
+</snippet>

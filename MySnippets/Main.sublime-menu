@@ -1,0 +1,10 @@
+[{
+  "caption": "My Menu",
+  "mnemonic": "t",
+  "id": "myMenu",
+  "children": [{
+    "id": "",
+    "caption": "",
+    "command": ""
+  }]
+}]

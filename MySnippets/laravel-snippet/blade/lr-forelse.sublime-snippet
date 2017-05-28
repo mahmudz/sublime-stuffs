@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@forelse(${1:\$user} as ${2:\$user})
+	${3:}
+@empty
+	${4:}
+@endforelse
+]]></content>
+
+	<tabTrigger>lr-forelse</tabTrigger>
+</snippet>

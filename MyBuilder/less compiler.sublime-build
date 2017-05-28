@@ -1,0 +1,11 @@
+{
+	"shell_cmd": "lessc \"${file}\" \"${file_path}/${file_base_name}.css\"",
+
+	"variants":
+	[
+		{
+			"name": "less Compiler",
+			"shell_cmd": "lessc \"${file}\" \"${file_path}/${file_base_name}.css\""
+		}
+	]
+}

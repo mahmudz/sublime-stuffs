@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+@extends('backend.app')
+
+@section('title', 'Your Title')
+
+@section('plugins', 'Plugin name goes here')
+
+
+@section('content')
+<div class="row">
+	<div class="col-md-12">
+		${1:}
+	</div>
+</div>
+@endsection
+]]></content>
+	<tabTrigger>lte-page-start</tabTrigger>
+</snippet>

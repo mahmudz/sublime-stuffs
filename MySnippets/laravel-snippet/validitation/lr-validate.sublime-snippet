@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->validate(\$request, [
+    '${1:title}' => 'required',
+]);
+]]></content>
+	<tabTrigger>lr-validate</tabTrigger>
+</snippet>

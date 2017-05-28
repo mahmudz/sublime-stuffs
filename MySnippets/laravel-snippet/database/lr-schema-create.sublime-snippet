@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Schema::create('${1:users}', function(Blueprint \$table){
+	\$table->increments('id');
+	${2:}
+	\$table->integer('created_by');
+	\$table->datetime('created_at');
+	\$table->integer('updated_by');
+	\$table->datetime('updated_at');
+});
+]]></content>
+	<tabTrigger>lr-schema-create</tabTrigger>
+</snippet>

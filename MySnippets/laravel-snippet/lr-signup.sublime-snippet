@@ -1,0 +1,86 @@
+<snippet>
+	<content>
+		<![CDATA[
+
+	<form action="{{ route('donor.signup') }}" method="POST" role="form">
+	<input type="hidden" name="_token" value="{{ Session::token() }}">
+
+		<div class="form-group{{ \$errors->has('first_name') ? ' has-error' : '' }}">
+			<input type="text" name="first_name" id="" class="form-control" placeholder="{{ @trans('dSignup.f_name') }}">
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('first_name') }}</span>
+		@endif
+		</div>
+
+		<div class="form-group{{ \$errors->has('last_name') ? ' has-error' : '' }}">
+			<input type="text" name="last_name" id="" class="form-control" placeholder="{{ @trans('dSignup.l_name') }}">
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('last_name') }}</span>
+		@endif
+		</div>
+
+		<div class="form-group{{ \$errors->has('blood_group') ? ' has-error' : '' }}">
+			<select name="blood_group" id="" class="form-control" >
+				<option value="">-- {{ @trans('dSignup.b_group') }} 
+				--</option>
+				<option value="A+">A+</option>
+				<option value="A-">A-</option>
+				<option value="B+">B+</option>
+				<option value="B-">B-</option>
+				<option value="AB+">AB+</option>
+				<option value="AB-">AB-</option>
+				<option value="O+">O+</option>
+				<option value="O-">O-</option>
+			</select>
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('blood_group') }}</span>
+		@endif
+		</div>
+
+		<div class="form-group{{ \$errors->has('district') ? ' has-error' : '' }}">
+			<select name="district" id="" class="form-control" >
+				<option value="">-- {{ @trans('dSignup.district') }}
+				 --</option>
+				<option value="Dhaka">Dhaka</option>
+			</select>
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('district') }}</span>
+		@endif
+		</div>
+
+		<div class="form-group">
+			<input type="text" name="location" class="form-control" placeholder="{{ @trans('dSignup.location') }}">
+		</div>
+
+		<div class="form-group{{ \$errors->has('email') ? ' has-error' : '' }}">
+			<input type="email" name="email" id="" class="form-control" placeholder="{{ @trans('dSignup.email') }}">
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('email') }}</span>
+		@endif
+		</div>
+
+		<div class="form-group{{ \$errors->has('phone') ? ' has-error' : '' }}">
+			<input type="phone" name="phone" id="" class="form-control" placeholder="{{ @trans('dSignup.phone') }}">
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('phone') }}</span>
+		@endif
+		</div>
+
+		<div class="form-group{{ \$errors->has('password') ? ' has-error' : '' }}">
+			<input type="password" name="password" class="form-control" id="" placeholder="{{ @trans('dSignup.password') }}">
+		@if(\$errors->has_error)
+			<span class="help-block">{{ \$errors->first('password') }}</span>
+		@endif
+		</div>
+	
+		
+	
+		<button type="submit" class="btn btn-primary">Sign up</button>
+	</form>
+
+
+
+		]]>
+		</content>
+<tabTrigger>lr-signup</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public static function ${1:getColorPage}()
+{
+	${2:}
+}
+]]></content>
+	<tabTrigger>st-fn</tabTrigger>
+</snippet>

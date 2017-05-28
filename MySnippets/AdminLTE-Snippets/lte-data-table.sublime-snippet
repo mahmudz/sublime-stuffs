@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<table id="example1" class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>Table Head</th>
+			<th>Table Head</th>
+			<th>Table Head</th>
+			<th>Table Head</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Table Data 1</td>
+			<td>Table Data 2</td>
+			<td>Table Data 3</td>
+			<td>Table Data 4</td>
+		</tr>
+	</tbody>
+</table>
+]]></content>
+	<tabTrigger>lte-data-table</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@if(\$errors->has_error)
+	<span class="help-block">{{ \$errors->first('${1:}') }}</span>
+@endif
+]]></content>
+	<tabTrigger>lr-helpblock</tabTrigger>
+</snippet>

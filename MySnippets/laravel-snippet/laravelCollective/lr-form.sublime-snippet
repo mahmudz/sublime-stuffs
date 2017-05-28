@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::open(['route'=>'/${1:test}','class'=>'form-horizontal']) !!}
+	${2:}
+{!! Form::close() !!}
+]]></content>
+	<tabTrigger>lr-form</tabTrigger>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<form action="" method="POST">
+<input type="hidden" name="_token" value="{{ Session::token() }}">
+
+	${1:}
+
+</form>
+]]></content>
+	<tabTrigger>lr-html-form</tabTrigger>
+</snippet>

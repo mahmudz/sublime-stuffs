@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<input type="hidden" name="_token" value="{{ Session::token() }}">
+]]></content>
+
+
+	<tabTrigger>lr-i-token</tabTrigger>
+</snippet>

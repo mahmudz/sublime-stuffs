@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Route::post('/${1:}', '${2:Test}Controller@${3:save}')
+		->name('${4:save}');
+]]></content>
+	<tabTrigger>lr-route-post</tabTrigger>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@if(${1:})
+	${2:}
+@endif
+]]></content>
+
+	<tabTrigger>lr-if</tabTrigger>
+</snippet>
+

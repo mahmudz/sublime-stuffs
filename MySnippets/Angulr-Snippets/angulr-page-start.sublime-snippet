@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@extends('backend.layouts.master')
+
+@section('title', 'Your Title')
+
+@section('content')
+
+@endsection
+]]></content>
+	<tabTrigger>angulr-page-start</tabTrigger>
+</snippet>

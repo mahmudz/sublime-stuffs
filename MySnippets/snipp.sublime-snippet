@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<snippet>
+	<content><![CDATA[
+		${2:}
+]${3:}]></content>
+	<tabTrigger>${1:key}</tabTrigger>
+</snippet>
+]]></content>
+	<tabTrigger>snipp</tabTrigger>
+</snippet>

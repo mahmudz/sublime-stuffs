@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@section('name')
+	${1:}
+@endsection
+]]></content>
+
+	<tabTrigger>lr-section</tabTrigger>
+</snippet>
+

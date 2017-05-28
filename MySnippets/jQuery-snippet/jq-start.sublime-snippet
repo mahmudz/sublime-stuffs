@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$(document).ready(function(){
+	${1:}
+});
+]]></content>
+	<tabTrigger>jq-start</tabTrigger>
+</snippet>

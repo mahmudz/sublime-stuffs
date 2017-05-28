@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@while(${1:})
+	${2:}
+@endwhile
+]]></content>
+
+	<tabTrigger>lr-while</tabTrigger>
+</snippet>
