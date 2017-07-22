@@ -3,8 +3,8 @@
   "mnemonic": "t",
   "id": "myMenu",
   "children": [{
-    "id": "",
-    "caption": "",
-    "command": ""
+    "id": "1",
+    "caption": "Test menu item 1",
+    "command": "dir"
   }]
 }]

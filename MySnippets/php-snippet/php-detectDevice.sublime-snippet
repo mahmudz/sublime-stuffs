@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+function detectDevice(){
+	\$userAgent = \$_SERVER['HTTP_USER_AGENT'];
+
+	\$device = 'Unidentified';
+
+	if (strpos(\$userAgent, 'Windows') !== false) {
+		\$device = 'Windows';
+	} elseif(strpos(\$userAgent, 'Android') !== false) {
+		\$device = 'Android';
+	} elseif(strpos(\$userAgent, 'iPhone') !== false) {
+		\$device = 'iPhone';
+	} elseif(strpos(\$userAgent, 'Linux') !== false) {
+		\$device = 'Linux';
+	} elseif(strpos(\$userAgent, 'iPad') !== false) {
+		\$device = 'iPad';
+	} elseif(strpos(\$userAgent, 'Mac') !== false) {
+		\$device = 'Mac';
+	}
+	return \$device;
+}
+]]></content>
+	<tabTrigger>php-detectDevice</tabTrigger>
+</snippet>

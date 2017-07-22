@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+class ControllerName extends CI_Controller
+{
+
+	function index()
+	{
+		# code...
+	}
+}
+
+]]></content>
+	<tabTrigger>ci-controller</tabTrigger>
+</snippet>

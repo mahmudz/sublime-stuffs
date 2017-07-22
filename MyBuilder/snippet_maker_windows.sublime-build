@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "copy NUL ${file}.sublime-snippet && del ${file}"
+}
