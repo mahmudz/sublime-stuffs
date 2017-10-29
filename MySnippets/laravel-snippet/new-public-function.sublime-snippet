@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-public function ${1:getColorPage}()
-{
-	${2:}
-}
-]]></content>
-	<tabTrigger>npf</tabTrigger>
-</snippet>

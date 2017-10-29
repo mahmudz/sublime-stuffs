@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+function fileUpload(\$file = null, \$filePath = null, \$fileName = null, \$rules = null){
+	if(isset(\$file)){
+		\$mainFile = \$file['tmp_name'];
+		\$fileSize = \$file['size'];
+		\$fileType = \$file['type'];
+
+		if (!isset(\$fileName)) {
+			\$fileName = \$file['name'];
+		}
+
+		if(!file_exists(\$filePath.\$fileName)) {
+			move_uploaded_file(\$mainFile,\$filePath.\$fileName);
+			return \$fileExt;
+		}else{
+			return "File Already Exists!";
+		}
+	}
+}
+]]></content>
+	<tabTrigger>php-fileUpload</tabTrigger>
+</snippet>
