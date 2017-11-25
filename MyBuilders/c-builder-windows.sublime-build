@@ -1,13 +1,11 @@
 {
-	"shell_cmd": "gcc \"${file}\" -o \"${file_path}/${file_base_name}\"",
-	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-	"working_dir": "${file_path}",
-	"selector": "source.c",
-
-	"variants":
+    "path": "C:\\Program Files\\CodeBlocks\\MinGW\\bin",
+    "shell": true,
+    "variants":
 	[
 		{
-			"shell_cmd": "gcc \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\""
+			"name": "C Run",
+			"cmd": ["gcc", "-o", "${file_base_name}.exe", "${file}", "&&", "start", "cmd", "/k", "${file_base_name}.exe"]
 		}
 	]
 }

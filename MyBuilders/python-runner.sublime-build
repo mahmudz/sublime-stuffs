@@ -1,0 +1,4 @@
+{
+    "cmd": ["start", "cmd", "/k", "python", "${file}"],
+    "shell": true
+}
