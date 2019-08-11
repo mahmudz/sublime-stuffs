@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+echo "<pre>";
+print_r(${1:arrayName});
+echo "</pre>";
+]]></content>
+	<tabTrigger>prettyPrint</tabTrigger>
+</snippet>

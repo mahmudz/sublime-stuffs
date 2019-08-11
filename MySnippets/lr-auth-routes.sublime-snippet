@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Route::get('login', 'AuthController@getLogin')
+		->name('login');
+
+Route::post('login', 'AuthController@checkLogin');
+
+Route::get('register', 'AuthController@getRegister')
+		->name('register');
+
+Route::post('register', 'AuthController@postRegister');
+]]></content>
+	<tabTrigger>lr-auth-routes</tabTrigger>
+</snippet>

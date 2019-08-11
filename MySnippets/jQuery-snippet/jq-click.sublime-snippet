@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$("${1:#buttonId}").click(function() {
+	
+});
+]]></content>
+	<tabTrigger>jq-click</tabTrigger>
+</snippet>

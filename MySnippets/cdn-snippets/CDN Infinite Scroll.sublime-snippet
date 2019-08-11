@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+]]></content>
+	<tabTrigger>cdn-infinite-scroll</tabTrigger>
+</snippet>

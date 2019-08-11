@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "pyuic5 -x \"${file}\" -o \"${file_base_name}.py\"",
+}

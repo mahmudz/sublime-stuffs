@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+function scrollToButtom(argument) {
+	\$("#chatFeed").animate({ scrollTop: \$('#chatFeed').prop("scrollHeight")}, 1000);
+}
+]]></content>
+	<tabTrigger>scroll-to-buttom</tabTrigger>
+</snippet>

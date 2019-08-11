@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+]]></content>
+	<tabTrigger>cdn-datatable</tabTrigger>
+</snippet>

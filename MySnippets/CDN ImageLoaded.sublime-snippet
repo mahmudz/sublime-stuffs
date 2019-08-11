@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+]]></content>
+	<tabTrigger>cdn-imageloaded</tabTrigger>
+</snippet>

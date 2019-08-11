@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+#include <stdio.h>
+
+int main(){
+
+	char c;
+
+	scanf("%c", &c, printf("Enter a character: "));
+
+	if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')
+	{
+		printf("Alphabet.\n");
+	}else if(c >= 0 && c <= 9){
+		printf("Numeric.\n");
+	}else{
+		printf("Symbols.\n");
+	}
+
+	return 0;
+}
+
+]]></content>
+	<tabTrigger>c-check-alpha-num</tabTrigger>
+	<source>source.c</source>
+</snippet>

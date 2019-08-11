@@ -1,0 +1,4 @@
+{
+    "cmd": ["javac", "${file}", "&&", "start", "cmd", "/k", "java", "${file_base_name}"],
+    "shell": true
+}

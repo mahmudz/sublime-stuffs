@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:functionName}()
+{
+	${2:}
+}
+]]></content>
+	<tabTrigger>npf</tabTrigger>
+</snippet>

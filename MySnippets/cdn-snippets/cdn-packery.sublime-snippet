@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
+<script>
+	\$('.grid').packery({
+  		itemSelector: '.grid-item',
+  		width: '.grid-sizer',
+	});
+</script>
+]]></content>
+	<tabTrigger>cdn-packery</tabTrigger>
+</snippet>

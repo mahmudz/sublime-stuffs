@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://raw.githubusercontent.com/pklauzinski/jscroll/master/jquery.jscroll.js"></script>
+]]></content>
+	<tabTrigger>cdn-jscroll</tabTrigger>
+</snippet>

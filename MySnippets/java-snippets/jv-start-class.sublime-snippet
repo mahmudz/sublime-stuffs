@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public class ${TM_FILENAME/(.+)\..+/$1/} {
+    public static void main(String []args){
+        System.out.println("Hello");
+    }
+}
+]]></content>
+	<tabTrigger>jv-start-class</tabTrigger>
+</snippet>

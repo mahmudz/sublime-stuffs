@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@if(str_contains(View::getSection('plugins'), 'summernote'))
+	${1:}
+@endif
+]]></content>
+	<tabTrigger>lr-if-plugin</tabTrigger>
+</snippet>

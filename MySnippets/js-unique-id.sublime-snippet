@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+Math.random().toString(36).substr(2, 9)
+]]></content>
+	<tabTrigger>js-unique-id</tabTrigger>
+</snippet>

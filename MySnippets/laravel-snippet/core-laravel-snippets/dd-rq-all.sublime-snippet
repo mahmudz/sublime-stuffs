@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-dd(\$request->all())
+dd(\$request->all());
 ]]></content>
 	<tabTrigger>dd-rq-all</tabTrigger>
 </snippet>

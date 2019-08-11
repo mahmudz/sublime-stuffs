@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+{{ Request::path() == 'route' ? 'active ' : '' }}
+]]></content>
+	<tabTrigger>lr-link-active</tabTrigger>
+</snippet>

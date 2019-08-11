@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<link href="https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css" rel="stylesheet">
+]]></content>
+	<tabTrigger>cdn-ionicons-css</tabTrigger>
+</snippet>

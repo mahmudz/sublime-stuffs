@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<table class="table" ui-jq="footable" ui-options='{
+	"paging": {
+	"enabled": true
+	},
+	"filtering": {
+	"enabled": true
+	},
+	"sorting": {
+	"enabled": true
+	}}'>
+	<thead>
+		<tr>
+			<th data-breakpoints="xs">ID</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th data-breakpoints="xs">Job Title</th>
+			<th data-breakpoints="xs sm">Started On</th>
+			<th data-breakpoints="xs sm md" data-title="DOB">Date of Birth</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach($data as $item)
+			<tr data-expanded="true">
+				<td>1</td>
+				<td>Dennise</td>
+				<td>Fuhrman</td>
+				<td>High School History Teacher</td>
+				<td>November 8th 2011</td>
+				<td>July 25th 1960</td>
+			</tr>
+		@endforeach
+	</tbody>
+</table>
+]]></content>
+	<tabTrigger>ngr-footable</tabTrigger>
+</snippet>

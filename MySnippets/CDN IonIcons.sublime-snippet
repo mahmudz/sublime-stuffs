@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+]]></content>
+	<tabTrigger>cdn-ionicons</tabTrigger>
+</snippet>

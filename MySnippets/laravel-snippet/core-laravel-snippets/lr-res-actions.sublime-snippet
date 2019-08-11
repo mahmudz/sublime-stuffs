@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+public function index()
+{
+	return view('backend.pages.product.index');
+}
+
+public function create()
+{
+	return view('backend.pages.product.createEditPage');
+}
+
+public function store(Request \$request)
+{
+	dd(\$request->all());
+}
+
+public function show()
+{
+	return view('backend.pages.product.page');
+}
+
+public function edit()
+{
+	return view('backend.pages.product.createEditPage');	
+}
+
+public function update(Request \$request)
+{
+	dd(\$request->all());
+}
+
+public function destroy()
+{
+	
+}	
+]]></content>
+	<tabTrigger>lr-res-actions</tabTrigger>
+</snippet>

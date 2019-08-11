@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$.gritter.add({
+    title: "Primary",
+    text: "This is a simple Gritter Notification.",
+    class_name: "color primary"
+});
+]]></content>
+	<tabTrigger>gritter-new</tabTrigger>
+</snippet>
