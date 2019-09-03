@@ -1,0 +1,13 @@
+{
+	"shell_cmd": "gcc -o $file_path/build/$file_base_name.exe $file_name -mms-bitfields -IE:/gtk/include/gtk-3.0 -IE:/gtk/include/cairo -IE:/gtk/include/pango-1.0 -IE:/gtk/include/atk-1.0 -IE:/gtk/include/cairo -IE:/gtk/include/pixman-1 -IE:/gtk/include -IE:/gtk/include/freetype2 -IE:/gtk/include -IE:/gtk/include/libpng15 -IE:/gtk/include/gdk-pixbuf-2.0 -IE:/gtk/include/libpng15 -IE:/gtk/include/glib-2.0 -IE:/gtk/lib/glib-2.0/include -LE:/gtk/lib -lgtk-3 -lgdk-3 -lgdi32 -limm32 -lshell32 -lole32 -Wl,-luuid -lpangocairo-1.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lpangowin32-1.0 -lgdi32 -lpango-1.0 -lm -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0",
+    "variants": [
+        {
+            "name": "Build & Run",
+            "shell_cmd": "gcc -o $file_path\/build\/$file_base_name.exe $file_name -mms-bitfields -IE:/gtk/include/gtk-3.0 -IE:/gtk/include/cairo -IE:/gtk/include/pango-1.0 -IE:/gtk/include/atk-1.0 -IE:/gtk/include/cairo -IE:/gtk/include/pixman-1 -IE:/gtk/include -IE:/gtk/include/freetype2 -IE:/gtk/include -IE:/gtk/include/libpng15 -IE:/gtk/include/gdk-pixbuf-2.0 -IE:/gtk/include/libpng15 -IE:/gtk/include/glib-2.0 -IE:/gtk/lib/glib-2.0/include -LE:/gtk/lib -lgtk-3 -lgdk-3 -lgdi32 -limm32 -lshell32 -lole32 -Wl,-luuid -lpangocairo-1.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lpangowin32-1.0 -lgdi32 -lpango-1.0 -lm -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 && $file_path\/build\/$file_base_name.exe"
+        },
+        {
+            "name": "Build & Deploy",
+            "shell_cmd": "gcc -o ${file_path}\/build\/$file_base_name.exe $file_name -mms-bitfields -IE:/gtk/include/gtk-3.0 -IE:/gtk/include/cairo -IE:/gtk/include/pango-1.0 -IE:/gtk/include/atk-1.0 -IE:/gtk/include/cairo -IE:/gtk/include/pixman-1 -IE:/gtk/include -IE:/gtk/include/freetype2 -IE:/gtk/include -IE:/gtk/include/libpng15 -IE:/gtk/include/gdk-pixbuf-2.0 -IE:/gtk/include/libpng15 -IE:/gtk/include/glib-2.0 -IE:/gtk/lib/glib-2.0/include -LE:/gtk/lib -lgtk-3 -lgdk-3 -lgdi32 -limm32 -lshell32 -lole32 -Wl,-luuid -lpangocairo-1.0 -lpangoft2-1.0 -lfreetype -lfontconfig -lpangowin32-1.0 -lgdi32 -lpango-1.0 -lm -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 && ldd $file_path\/build\/$file_base_name.exe | grep '\/mingw.*\\.dll' -o | xargs -I{} cp {} $file_path\/build\/"
+        }
+    ]
+}
