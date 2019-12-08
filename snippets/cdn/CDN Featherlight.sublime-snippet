@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css" integrity="sha256-vEYriSASSzT/+p9GbevPsOCXMX7Wt2tzpUetOcN0/jQ=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js" integrity="sha256-/SEQTcl9tvyYDA8SuhV/PMn92shN3kNn8C9vnbBcE9Y=" crossorigin="anonymous"></script>
+]]></content>
+	<tabTrigger>cdn-featherlight</tabTrigger>
+</snippet>

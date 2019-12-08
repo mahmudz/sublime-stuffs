@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-public function ${1:functionName}()
+
+public function ${1:functionName}() :${2:returnType}
 {
-	${2:}
+	${3:}
 }
 ]]></content>
 	<tabTrigger>npf</tabTrigger>

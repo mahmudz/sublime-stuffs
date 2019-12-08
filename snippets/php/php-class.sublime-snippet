@@ -3,10 +3,7 @@
 <?php
 
 class ${TM_FILENAME/(.+)\..+/$1/} {
-
-	public function ${1:FunctionName}(){
-		${2:}
-	}
+	${1:}
 }
 ]]></content>
 	<tabTrigger>php-class</tabTrigger>

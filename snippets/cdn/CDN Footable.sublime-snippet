@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/3.1.6/footable.bootstrap.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-footable/3.1.6/footable.min.js"></script>
+]]></content>
+<tabTrigger>cdn-footable</tabTrigger>
+</snippet>

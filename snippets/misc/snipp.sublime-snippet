@@ -2,9 +2,10 @@
 	<content><![CDATA[
 <snippet>
 	<content><![CDATA[
-		${2:}
+		${3:}
 ]${3:}]></content>
 	<tabTrigger>${1:key}</tabTrigger>
+	<scope>source.${2:ext}</scope>
 </snippet>
 ]]></content>
 	<tabTrigger>snipp</tabTrigger>

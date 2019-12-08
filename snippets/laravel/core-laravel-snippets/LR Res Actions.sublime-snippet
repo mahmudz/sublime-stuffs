@@ -2,12 +2,12 @@
 	<content><![CDATA[
 public function index()
 {
-	return view('backend.pages.product.index');
+	return view('backend.pages.${1:product}.index');
 }
 
 public function create()
 {
-	return view('backend.pages.product.createEditPage');
+	return view('backend.pages.${1:product}.create');
 }
 
 public function store(Request \$request)
@@ -17,12 +17,12 @@ public function store(Request \$request)
 
 public function show()
 {
-	return view('backend.pages.product.page');
+	return view('backend.pages.${1:product}.show');
 }
 
 public function edit()
 {
-	return view('backend.pages.product.createEditPage');	
+	return view('backend.pages.${1:product}.edit');	
 }
 
 public function update(Request \$request)
