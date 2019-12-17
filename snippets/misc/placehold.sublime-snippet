@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-https://via.placeholder.com/300x300?text=facebook.com/hasan.mahmudz
+https://picsum.photos/${1:200}/${2:300}
 ]]></content>
 <tabTrigger>placehold</tabTrigger>
 </snippet>
