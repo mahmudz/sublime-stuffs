@@ -1,0 +1,5 @@
+[{
+  "id": "asseting_source",
+  "caption": "Set asset link to laravel blade files",
+  "command": "sublime_tailwind_shades"
+}]

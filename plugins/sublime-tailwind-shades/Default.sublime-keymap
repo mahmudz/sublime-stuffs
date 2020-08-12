@@ -1,0 +1,6 @@
+[
+	{ 
+		"keys": ["ctrl+shift+a"],
+		"command": "sublime_tailwind_shades"
+	}
+]

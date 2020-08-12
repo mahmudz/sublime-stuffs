@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+public function index()
+{
+	return SomeModel::all();
+}
+
+public function store(Request \$request)
+{
+	dd(\$request->all());
+	try {
+		SomeModel::create(
+				\$request->all()
+			);
+			
+		return ['status' => true];
+	} catch (Exception \$e) {
+		return ['status' => false, 'message' => \$e->getMessage()];
+	}
+}
+
+public function show(\$id)
+{
+	return SomeModel::find(\$id);
+}
+
+public function update(Request \$request, \$id)
+{
+	dd(\$request->all());
+
+	try {
+		SomeModel::find(\$id)
+			->update(
+				\$request->all()
+			);
+
+		return ['status' => true];
+	} catch (Exception \$e) {
+		return ['status' => false, 'message' => \$e->getMessage()];
+	}
+}
+
+public function destroy(\$id)
+{
+	try {
+		SomeModel::destroy(\$id);
+
+		return ['status' => true];
+	} catch (Exception \$e) {
+		return ['status' => false, 'message' => \$e->getMessage()];
+	}
+}	
+]]></content>
+	<tabTrigger>lr-res-actions-api</tabTrigger>
+</snippet>

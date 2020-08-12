@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+axios.post('${1:url}', {
+	${2:}
+}).then(response => {
+	${3:}
+})
+]]></content>
+	<tabTrigger>axios-post</tabTrigger>
+</snippet>

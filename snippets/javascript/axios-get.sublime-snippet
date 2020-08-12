@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+axios.get('${1:url}', {
+	params: {
+
+	}
+}).then(response => {
+	${2:}
+})
+]]></content>
+	<tabTrigger>axios-get</tabTrigger>
+</snippet>

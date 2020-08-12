@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+\$validator = Validator::make(\$request->all(), [
+    'activity_date' => 'required',
+    'subject' => 'required',
+]);
+
+if (\$validator->fails()) {
+    \$message = '';
+    \$errors = \$validator->errors();
+    foreach (\$errors->toArray() as \$key => \$msg) {
+        \$message .= \$errors->first(\$key) . '<br>';
+    }
+    return ['status' => false, 'message' => \$message];
+}
+]]></content>
+	<tabTrigger>lr-custom-validate</tabTrigger>
+</snippet>

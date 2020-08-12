@@ -1,0 +1,4 @@
+[
+    { "caption": "-", "id" : "text" },
+    { "command": "sublime_tailwind_shades", "caption": "Generate Tailwind Shades" }
+]
